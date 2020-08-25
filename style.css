@@ -10,18 +10,33 @@ body{
 #validador{
     display: flex;
     justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(1, 1, 2);
+    padding: 30px;
+    align-items:center;
+    margin: 50px 200px;
 }
 #phone{
     border-radius: 20px;
-    width: 200px;
     height: 30px;
-    margin-right: 10px;
     border: 2px solid rgb(248, 199, 1);
-}
-#btn_phone{
+    width: 400px;
+    margin: 20px;
+} 
+#btn_phone {
     border-radius: 20px;
     border: 2px solid rgb(248, 199, 1);
+
 }
 #respuesta{
     color: rgb(248, 199, 1); 
+}
+@media (max-width: 900px){
+    #phone{
+        width: 100%;
+    } 
+    #validador{
+        margin: 50px;
+    } 
 }
